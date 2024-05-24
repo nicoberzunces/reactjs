@@ -32,6 +32,7 @@ const Cart = () => {
       );
     }
   
+    
     return (
       <div className="cart-container">
         {cart.map(item => (
