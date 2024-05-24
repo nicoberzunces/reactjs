@@ -1,0 +1,20 @@
+.cart-empty {
+    color: blue;
+  }
+  
+  .cart-container {
+    background-color: yellow;
+  }
+  
+  .total-price {
+    color: blue;
+  }
+  
+  .clear-cart {
+    background-color: blue;
+    color: yellow;
+  }
+  
+  .checkout-link {
+    color: blue;
+  }

@@ -1,0 +1,113 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para la barra de navegación */
+  .NavBar {
+    background-color: #FFD700; /* Amarillo */
+    color: #000; /* Texto negro */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .NavBar h3 {
+    margin: 0;
+  }
+  
+  .NavBar .Categories {
+    display: flex;
+  }
+  
+  .NavBar .Categories a {
+    color: #000; /* Texto negro */
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  
+  .NavBar .Categories a:hover {
+    color: #4169E1; /* Azul */
+  }
+  
+  /* Estilos para el widget del carrito */
+  .CartWidget {
+    display: flex;
+    align-items: center;
+  }
+  
+  .CartWidget img {
+    width: 30px;
+    margin-right: 0.5rem;
+  }
+  
+  /* Estilos para el contenedor principal */
+  .App {
+    background-color: #4169E1; /* Azul */
+    color: #050505; /* Texto blanco */
+    min-height: 100vh;
+    padding: 1rem;
+  }
+  
+  /* Estilos para la página de detalle de elementos */
+  .ItemDetailContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .ItemDetailContainer .CardItem {
+    background-color: #FFD700; /* Amarillo */
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .ItemDetailContainer .CardItem img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Estilos para el contador de elementos */
+  .Counter {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Counter .Controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Counter .Button {
+    background-color: #4169E1; /* Azul */
+    color: #fff; /* Texto blanco */
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+  }
+  
+  .Counter .Button:hover {
+    background-color: #00008B; /* Azul oscuro */
+  }
+  
+  .Counter .Number {
+    margin: 0 0.5rem;
+  }
+  
+  .Counter .Button:disabled {
+    background-color: #A9A9A9; /* Gris */
+    cursor: not-allowed;
+  }
+  .CardItem img {
+    width: 300px; /* Ajusta el tamaño según sea necesario */
+    height: auto; /* Mantener la proporción de aspecto */
+    border: 2px solid #0000FF; /* Cambia el color del borde y el grosor según sea necesario */
+    border-radius: 5px; /* Agrega bordes redondeados */
+  }
